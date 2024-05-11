@@ -20,7 +20,7 @@ Common use cases for middleware include authentication, authorization, error han
 const jsonWebToken = require("jsonwebtoken");
 
 // Defining secret key to generate token for each user validation
-SECRET_KEY = "NOTES_API"
+SECRET_KEY = process.env.SECRET_KEY
 
 const authentication = (requestFromUserOrClient, responseFromServer,  next) =>{
     try {
