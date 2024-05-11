@@ -1,0 +1,12 @@
+{
+  "name": "Notes_API",
+  "version": "1.0.0",
+  "description": "An API which can be used in login, signup and also to store user's notes",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon source/index.js"
+  },
+  "keywords": [],
+  "author": "Ujjwal",
+  "license": "ISC"
+}
